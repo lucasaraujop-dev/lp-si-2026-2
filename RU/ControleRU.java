@@ -32,6 +32,8 @@ public class ControleRU {
                     alunoCadastrado = new Aluno(nome, matricula, curso, campus);
 
                     JOptionPane.showMessageDialog(null, "Aluno cadastrado com sucesso");
+
+                    
                     break;
                 case 2:
                     if (alunoCadastrado != null){
@@ -47,7 +49,7 @@ public class ControleRU {
                         JOptionPane.showMessageDialog(null, "Acesso negado!");
                     }
                 case 4:
-                    JOptionPane.showMessageDialog(null, "Encerrand o sistema...");
+                    JOptionPane.showMessageDialog(null, "Encerrando o sistema...");
                 default:
                     JOptionPane.showMessageDialog(null, "Opção inválida Tente novamente.");
 
